@@ -5,10 +5,13 @@ p{
 }
 h1{
     text-align: center;
+    color:blue
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
 }
 h4{
     font-size: small;
+    color:aquamarine
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html">
+<title> Tarea 4 </title>
+</head>
+<body>
+ <script>
+     var nombre;
+     var distancia;
+
+     nombre=prompt('Ingrese su nombre:',''); // prompt >
+     distancia=prompt('Ingrese la distancia que viajará:','');
+     
+     if(distancia<=1000){
+         document.write(nombre+', si viajas '+distancia+ ' metros, lo mejor es viajar a pie.')
+     }else if(distancia>1000&&distancia<=10000){
+        document.write(nombre+', si viajas '+distancia+ ' metros, lo mejor es viajar en bicicleta.')
+     }else if(distancia>10000&&distancia<=30000){
+        document.write(nombre+', si viajas '+distancia+ ' metros, lo mejor es viajar en colectivo.')
+     }else if(distancia>30000&&distancia<=100000){
+        document.write(nombre+', si viajas '+distancia+ ' metros, lo mejor es viajar en auto.')
+     }else if(distancia>100000){
+        document.write(nombre+', si viajas '+distancia+ ' metros, lo mejor es viajar en avión.')
+     }
+     
+ </script>   
+</body>
+</html>
